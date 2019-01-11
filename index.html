@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- -------------------------styles -->
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <title>Document</title>
+</head>
+<body>
+ <div id="header">
+     <img src="./images/ovclogo.png"id="img1">
+   
+ </div>   
+ <div class="content">
+       <h4 id="convert"> CONVERT VIDEOS FROM YOUTUBE TO MP3 AND VARIOUS OTHER FORMATS</h4> 
+       <form action = "http://127.0.0.1:8080/process_get" method = "GET">
+     <input type="text" name="inputLink" placeholder="Paste link here https://www.youtube.com/watch?v=hBl5pV2xnQg">
+     <button>Start</button>
+     </form>
+ </div>
+    <!-- -------------------------scriptes -->
+    <script src="./components/header.js"></script>
+<style>
+#header{
+    list-style: none;
+ width: 100%;
+ color: aliceblue;
+    background: black;
+ /* position: absolute; */
+ top: -10px;
+ text-align: center;
+  
+}
+#img1{
+    margin-top: 2%;
+    width: 25vw;
+    margin-right: 65%;
+}
+.content{
+    margin-top: 10%;
+}
+.content input{
+    outline:none;
+    width: 40%;
+    height: 35px;
+    margin-left: 20%;
+    border-radius: 20px;
+    color: black;
+    font-size: 100%;
+    
+}
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    color: bisque;
+    background-color: black;
+    outline:none;   
+    }
+    #convert{
+        text-align: center;
+    }
+    body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0%;
+    
+
+}
+</style>
+</body>
+</html>
